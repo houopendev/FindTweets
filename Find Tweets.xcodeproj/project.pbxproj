@@ -30,6 +30,7 @@
 		74E4931F145755EA004FE000 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E4931B145755EA004FE000 /* libz.1.2.5.dylib */; };
 		74E49320145755EA004FE000 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E4931C145755EA004FE000 /* MobileCoreServices.framework */; };
 		74E49321145755EA004FE000 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E4931D145755EA004FE000 /* SystemConfiguration.framework */; };
+		74FE0E7914618F2C00A3CDA7 /* TweetItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0E7814618F2C00A3CDA7 /* TweetItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		74E4931B145755EA004FE000 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		74E4931C145755EA004FE000 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		74E4931D145755EA004FE000 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74FE0E7814618F2C00A3CDA7 /* TweetItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TweetItemCell.xib; path = "../../Find Tweets/Find Tweets/TweetItemCell.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		74E492DC145754D4004FE000 /* Find Tweets */ = {
 			isa = PBXGroup;
 			children = (
+				74FE0E7814618F2C00A3CDA7 /* TweetItemCell.xib */,
 				74E492E5145754D4004FE000 /* AppDelegate.h */,
 				74E492E6145754D4004FE000 /* AppDelegate.m */,
 				74E492E8145754D4004FE000 /* ViewController.h */,
@@ -246,6 +249,7 @@
 			files = (
 				74E492E1145754D4004FE000 /* InfoPlist.strings in Resources */,
 				74E492ED145754D4004FE000 /* ViewController.xib in Resources */,
+				74FE0E7914618F2C00A3CDA7 /* TweetItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +385,7 @@
 				74E492F2145754D4004FE000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
